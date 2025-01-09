@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Pagina</title>
+  
+    <style>
+        body{
+            font-family: sans-serif;
+            margin: 0;
+        }
+      header{
+        display: flex;
+        min-height: 70px;
+        background-color: darkolivegreen;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+      }
+      .logo{
+        display: flex;
+        align-items: center;
+      }
+      .logo img{
+        height: 50px;
+        margin-right: 10px;
+      }
+      a{
+        text-decoration: none;
+        color: black;
+      }
+      nav a{
+        font-weight: 600;
+        padding-right: 10px;
+      }
+        nav a:hover{
+            color: white;
+        }
+        @media (max-width:700px){
+            header{
+                flex-direction: column;
+            }
+
+            
+            nav{
+                padding: 10px 0px;
+            }
+        }
+        .img{
+           width: 200px;
+           height: 200px;
+           border-radius: 50%;
+           object-fit: cover;
+        
+        }
+        .contenido{
+            display: flex;
+            margin: 60px;
+        }
+        .articulos{
+            width: 80%;
+            border-right: 3px solid black;
+        }
+        .secciones{
+            display: flex;
+            align-items: center;
+            padding: 40px;
+        }
+        .menu-secundarios{
+            width: 20%;
+            margin-top: 60px; 
+        }
+        .menu-secundarios a{
+            display: block;
+            text-align: center;
+            color: black;
+            margin-bottom: 60px;
+        }
+     
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">
+            <img src="vecteezy_starbucks-logotype-on-white-background-starbucks_.jpg" alt="logo de la compañia">
+
+        <h2 class="nombre-empresa">Muestras tia ruby</h2>
+
+
+        </div>
+        <nav>
+            <a href="" class="nav-link">Inicio</a>
+            <a href="" class="nav-link">Sobre nosotros</a>
+            <a href="" class="nav-link">Contacto</a>
+        </nav>
+    </header>
+      <div class="contenido">
+        <div class="articulos">
+            <div class="secciones">
+        
+                <div><h2>Subtitulos</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a risus nec sem vulputate mollis ac vitae ipsum. Vivamus vel felis libero. Nam pretium, ipsum a fermentum venenatis, velit augue scelerisque diam, a dapibus nisl nulla ut lorem. Nulla tincidunt interdum sapien at posuere. Nullam sollicitudin felis a orci viverra, nec vulputate dolor rutrum. Donec eget tempus odio. Proin lacus nunc, gravida in ipsum nec, pulvinar lobortis justo. Nulla ullamcorper dui nec feugiat varius. Sed libero sapien, fermentum ut lorem non, tempus interdum sapien. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam finibus convallis massa.</p>
+                </div>
+                
+                <div><img src="Chiapas.jpg" class="img"></div>
+            </div>
+            <div class="secciones">
+        
+                <div><h2>Subtitulos</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a risus nec sem vulputate mollis ac vitae ipsum. Vivamus vel felis libero. Nam pretium, ipsum a fermentum venenatis, velit augue scelerisque diam, a dapibus nisl nulla ut lorem. Nulla tincidunt interdum sapien at posuere. Nullam sollicitudin felis a orci viverra, nec vulputate dolor rutrum. Donec eget tempus odio. Proin lacus nunc, gravida in ipsum nec, pulvinar lobortis justo. Nulla ullamcorper dui nec feugiat varius. Sed libero sapien, fermentum ut lorem non, tempus interdum sapien. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam finibus convallis massa.</p>
+                </div>
+                
+                <div><img src="Chiapas.jpg" class="img"></div>
+            </div>
+            
+        </div>
+        <div class="menu-secundarios">
+            <a href="">Mas Cafes</a>
+            <a href="">Mas Cafes</a>
+            <a href="">Mas Cafes</a>
+            <a href="">Mas Cafes</a>
+            <a href="">Mas Cafes</a>
+            <a href="">Mas Cafes</a>
+        </div>
+      </div>
+</div>    
+</body>
+</html>
